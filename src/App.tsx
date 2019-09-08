@@ -1,26 +1,14 @@
+// import ChatsList from './components/ChatsListScreen/ChatsList';
+// import ChatsNavbar from './components/ChatsListScreen/ChatsNavbar';
+import ChatsListScreen from './components/ChatsListScreen';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// Everything after : describes the types of the App variable and has no affect on the behavior and execution of the app.
+// It will tell Typescript how App is supposed to look like, so that in case we make a mistake, Typescript will warn us before we get the app running.
+const App: React.FC = () => (
+    <div>
+        <ChatsListScreen />
     </div>
-  );
-}
+);
 
 export default App;

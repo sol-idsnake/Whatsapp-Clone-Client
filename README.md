@@ -1,3 +1,11 @@
+##Considerations
+
+### The jest-fetch-mockpackage can mock responses emitted by the Fetch API.
+
+### The @testing-library/jest-dompackage will add custom matchers that will help us examine HTML contents of DOM elements.
+
+### The @testing-library/reactpackage contains utility methods that will help us test React.Components with Jest.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
